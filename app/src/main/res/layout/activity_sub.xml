@@ -3,16 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.callnsolution.materialdesign.MainActivity">
+    tools:context="com.callnsolution.materialdesign.SubActivity">
 
     <include
         android:id="@+id/app_bar"
         layout="@layout/app_bar" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/app_bar"
-        android:text="Hello World!" />
 
 </RelativeLayout>
