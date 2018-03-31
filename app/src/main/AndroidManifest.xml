@@ -21,6 +21,10 @@
             android:parentActivityName=".MainActivity"
             android:name=".SubActivity"
             android:label="@string/sub_activity"/>
+
+        <activity android:name=".ThirdActivity"
+            android:parentActivityName=".SubActivity"
+            android:label="@string/third_activity"/>
     </application>
 
 </manifest>
